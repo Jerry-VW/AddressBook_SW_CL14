@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C4FE21041E398A0F0090F744 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C4FE21031E398A0F0090F744 /* main.c */; };
+		C4FE21111E398EBB0090F744 /* abook.c in Sources */ = {isa = PBXBuildFile; fileRef = C4FE210F1E398EBB0090F744 /* abook.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		C4FE21001E398A0F0090F744 /* SW_AddressBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SW_AddressBook; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FE21031E398A0F0090F744 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C4FE210F1E398EBB0090F744 /* abook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = abook.c; sourceTree = "<group>"; };
+		C4FE21101E398EBB0090F744 /* abook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abook.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				C4FE21031E398A0F0090F744 /* main.c */,
+				C4FE210F1E398EBB0090F744 /* abook.c */,
+				C4FE21101E398EBB0090F744 /* abook.h */,
 			);
 			path = SW_AddressBook;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4FE21111E398EBB0090F744 /* abook.c in Sources */,
 				C4FE21041E398A0F0090F744 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

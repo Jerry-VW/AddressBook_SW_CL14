@@ -10,10 +10,32 @@
 //
 
 
-#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "abook.h"
+
+#define Debug
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    //define variables
+    char cABookPath[100] = "/Users/Jerry/Desktop/CL14/SW_AddressBook/address.bin";
+    ADDR_DT addrBook[10];
+    FILE *pRecordFile;
+    int iMenu;
+    errno_t error;
+    
+    //open file process
+    if ((error = fopen_s(&pRecordFile, cABookPath, "rb")) != 0) {
+        addrListClear(addrBook);
+    }
+    
+    //normal process
+    
+    //close file process
+    
+    
+    
     printf("Hello, World!\n");
     return 0;
 }
